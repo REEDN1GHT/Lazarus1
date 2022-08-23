@@ -1,0 +1,87 @@
+object Form1: TForm1
+  Left = 257
+  Height = 352
+  Top = 126
+  Width = 359
+  Caption = 'Form1'
+  ClientHeight = 352
+  ClientWidth = 359
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Edit1: TEdit
+    Left = 48
+    Height = 28
+    Top = 44
+    Width = 68
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 184
+    Height = 28
+    Top = 44
+    Width = 102
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 50
+    Height = 28
+    Top = 93
+    Width = 228
+    OnChange = Edit3Change
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 41
+    Height = 25
+    Top = 132
+    Width = 75
+    Caption = '+'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 128
+    Height = 25
+    Top = 132
+    Width = 75
+    Caption = '-'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 216
+    Height = 25
+    Top = 132
+    Width = 75
+    Caption = 'Cтереть'
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+  object Button4: TButton
+    Left = 39
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = '*'
+    OnClick = Button4Click
+    TabOrder = 6
+  end
+  object Button5: TButton
+    Left = 128
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = '/'
+    OnClick = Button5Click
+    TabOrder = 7
+  end
+  object Button6: TButton
+    Left = 216
+    Height = 25
+    Top = 192
+    Width = 75
+    Caption = 'VIHOD'
+    OnClick = Button6Click
+    TabOrder = 8
+  end
+end

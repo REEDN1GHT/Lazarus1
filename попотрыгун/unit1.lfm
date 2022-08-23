@@ -1,0 +1,24 @@
+object Form1: TForm1
+  Left = 275
+  Height = 549
+  Top = 146
+  Width = 748
+  Caption = 'Form1'
+  ClientHeight = 549
+  ClientWidth = 748
+  DesignTimePPI = 120
+  LCLVersion = '1.8.4.0'
+  object Shape1: TShape
+    Left = 176
+    Height = 41
+    Top = 212
+    Width = 65
+    Shape = stCircle
+  end
+  object Timer1: TTimer
+    Interval = 5
+    OnTimer = Timer1Timer
+    left = 32
+    top = 224
+  end
+end
